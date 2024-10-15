@@ -1,3 +1,5 @@
-![20241014_160512(5
-)](https://github.com/user-attachments/assets/c4c1148f-430c-42b2-ae9f-21a9aaaf3049)
+from collections.abc import Sequence
+
+def first[T](l: Sequence[T]) -> T:  # Function is generic over the TypeVar "T"
+    return l[0]
 # WorthAllug
